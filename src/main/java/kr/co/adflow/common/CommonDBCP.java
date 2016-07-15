@@ -6,9 +6,6 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-import javax.inject.Singleton;
-
-import com.mysql.jdbc.PreparedStatement;
 
 public class CommonDBCP {
 
@@ -17,7 +14,7 @@ public class CommonDBCP {
 	private CommonDBCP() {
 	}
 
-
+//
 
 	public static Connection getConn() {
 		if (con == null) {
