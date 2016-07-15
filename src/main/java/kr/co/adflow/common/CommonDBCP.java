@@ -10,7 +10,7 @@ import java.sql.Statement;
 public class CommonDBCP {
 
 	private static Connection con = null;
-////////
+//////////
 	private CommonDBCP() {
 	}
 
