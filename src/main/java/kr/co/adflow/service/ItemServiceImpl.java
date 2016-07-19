@@ -12,7 +12,6 @@ import javax.annotation.Resource;
 import javax.naming.spi.DirStateFactory.Result;
 import javax.servlet.http.HttpServletRequest;
 
-import org.apache.log4j.Logger;
 import org.springframework.stereotype.Service;
 import org.springframework.web.servlet.ModelAndView;
 
@@ -23,7 +22,6 @@ import kr.co.adflow.domain.Item;
 
 @Service("sampleService")
 public class ItemServiceImpl implements ItemService {
-	Logger log = Logger.getLogger(this.getClass());
 	ArrayList<Item> itemList;
 	int userNo;
 	private Object sendAll;

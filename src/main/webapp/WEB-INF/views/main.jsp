@@ -3,8 +3,6 @@
 	pageEncoding="utf-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 
-<!-- <script src="/resources/bootstrap-3.3.2-dist/js/bootstrap.min.js"
-	type="text/javascript"></script>
 <link href="/resources/bootstrap-3.3.2-dist/css/bootstrap.min.css"
 	rel="stylesheet"> -->
 <html>
