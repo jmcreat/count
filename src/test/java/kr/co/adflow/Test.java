@@ -6,7 +6,6 @@
  import java.sql.Statement;
  import java.util.ArrayList;
 
- import org.testng.reporters.jq.ResultsByClass;
 
  import kr.co.adflow.common.CommonDBCP;
  import kr.co.adflow.domain.Item;
