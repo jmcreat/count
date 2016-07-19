@@ -37,7 +37,7 @@ import kr.co.adflow.service.ItemService;
 
 @Controller
 public class CommonController {
-
+//
 	@Autowired
 	private ItemService itemService;
 
