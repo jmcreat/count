@@ -14,7 +14,7 @@ public class CommonDBCP {
 	private CommonDBCP() {
 	}
 
-////
+/////
 
 	public static Connection getConn() {
 		if (con == null) {
